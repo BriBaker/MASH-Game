@@ -1,22 +1,19 @@
 /* Body styling */
 body {
   background: aqua;
-  color: #000000;
-  font-family:;
-  font-size: 27px;
-  font-weight: 300;
-  line-height: 1.65em;
   margin: 0 auto;
   max-width: 960px;
-  padding: 40px 10px;  
+  padding: 10px 10px;  
 }
 
 
 /* Heading Styles */
 h1 {
-  font-size: 60px;
-  color: #fff;
-  font-family: ewert;
+  font-size: 200px;
+  font-weight: 100;
+  line-height: 150px;
+  color: black;
+  font-family: 'Ewert', cursive;
   text-align: center;
 }
 
@@ -24,23 +21,28 @@ h1 {
 /* Game Directions */
 .description {
   text-align: center;
-  margin: 80px auto 40px;
+  color: #000000;
+  font-family: 'Special Elite', cursive;
+  font-size: 35px;
+  font-weight: 300;
+  line-height: 1.75em;
+ 
 }
 
 
 /* Submit Button, Columns, Questions, and Inputs */
 .button-submit {
-  background: transparent;
-  border: 3px solid #fff;
+  background: #FF1493;
+  border: 3px solid #000000;
   border-radius: 6px;
-  color: #fff;
+  color: black;
   cursor: pointer; 
   display: block;
-  font-family: monofett;
-  font-size: 20px;
+  font-family: 'Ewert', cursive;
+  font-size: 40px;
   font-weight: bold;  
-  margin: 0 auto 60px;
-  padding: 1em 2em; 
+  margin: 0 auto 50px;
+  padding: 1em 1em; 
   text-align: center; 
 }
 
@@ -67,11 +69,12 @@ h1 {
 .choice-bucket input {
   border: 0;
   border-radius: 6px;
-  color: #713e94;
+  font-family: 'Special Elite', cursive;	
+  color: deeppink;
   font-size: 18px;
   margin: 15px 4%;
   outline: 0;
-  padding: 16px 0;
+  padding: 12px 0;
   text-indent: 20px;
   width: 92%;  
 }
@@ -81,10 +84,11 @@ h1 {
 }
 
 .highlight {
-  font-size: 18px;
+  font-family: 'Special Elite', cursive;
+  font-size: 24px;
   line-height: 24px;
   margin-left: 30px;
-  opacity: .8;
+ 
 }
 
 
