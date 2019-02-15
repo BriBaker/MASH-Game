@@ -66,7 +66,7 @@ function handle_submission(evt) {
 	    'answer_2': get_answer('answer_2'),
 		'answer_3': get_answer('answer_3'),
 		'answer_4': get_answer('answer_4'),
-	}
+	};
 	// Fill in the answers
 	fill_in_answers(answers);
 	
